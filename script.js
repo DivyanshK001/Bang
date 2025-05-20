@@ -1,4 +1,4 @@
-const scriptURL = "https://script.google.com/macros/s/AKfycbwRqu6rkQcc1MpEu9sEyGtha3wit-A82ksT5qdv2YRTgcWbw5ES_xyIXreoI1X2IKpgkg/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbxtYLsv7LJ2ZL4SGXsiy3QFQg8joIMxFbW7Crwbg6V2tFBj_8tUp0ozHQvpsNHAOfjfcQ/exec";
 
 function updateMood() {
   const mood = document.getElementById("mood").value;
