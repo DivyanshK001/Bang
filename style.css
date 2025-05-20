@@ -1,0 +1,78 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fff0f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+label, select, textarea, button {
+  width: 100%;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+select, textarea {
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: hotpink;
+  color: white;
+}
+
+#mood {
+  background-color: lavender;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+#status {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* Mood Backgrounds */
+body.happy { background-color: #ffe4e1; }
+body.cute { background-color: #f0fff0; }
+body.sad { background-color: #e0f7fa; }
+body.angry { background-color: #ffcccb; }
+body.volcano { background-color: #ffebcd; }
+body.gaali { background-color: #f5f5dc; }

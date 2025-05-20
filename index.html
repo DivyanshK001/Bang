@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bang's Grievance Portal 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💌 Tell Me, Bang! What's on your heart?</h1>
+
+    <label for="mood">🌈 Pick your mood:</label>
+    <select id="mood" onchange="updateMood()">
+      <option value="happy">Happy Bang 😊</option>
+      <option value="cute">Cute Bang 🐣</option>
+      <option value="sad">Sad Bang 😢</option>
+      <option value="angry">Bangry Bang 😠</option>
+      <option value="volcano">Volcano Bang 🌋</option>
+      <option value="gaali">Gaali Giving Bang 🤬</option>
+    </select>
+
+    <label for="grievance">📜 Type your grievance here:</label>
+    <textarea id="grievance" placeholder="Let it out, Bang. I’m all ears... 💖"></textarea>
+
+    <button onclick="submitGrievance()">Submit 💌</button>
+    <p id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
